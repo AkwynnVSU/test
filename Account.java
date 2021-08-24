@@ -2,15 +2,13 @@ package ver2;
 
 public class Account {
 	
-	// Constructor
-	public Account (double balance) {
-		this("Unknown", balance);
-	}
+	
 		
 		public Account (String name, double balance) {
 		this.name = name;
 		this.balance = balance;
 	}
+	// New comment for balance
 	// Instance variable, only available inside this class.
 	private double balance;
 	private String name;
